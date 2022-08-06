@@ -1,6 +1,3 @@
-from unicodedata import name
-
-
 def main():
     pass
 
