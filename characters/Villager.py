@@ -1,10 +1,6 @@
 
-import WinConditions as wc
-
-class Villager(wc):
+class Villager():
     
     def __init__(self):
-        self.win = False
+        pass
     
-    def win_condition(self):
-        print("Town Wins!!!!")
