@@ -1,11 +1,17 @@
 
-import winConditions as wc
-
-class Werewolf(wc):
+class Werewolf():
     
     def __init__(self):
-        self.win = False
-    
-    def win(self):
-        wc.winConditions(["Werewolf"])
+        self.name = "Werewolf"
+        self.faction = "Werewolf"
+        self.action = False
+        self.priority = 0
+        self.wolves = []
+
+
+    def act(self):
+        '''
+        do action
+        '''
+        pass
         
