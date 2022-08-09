@@ -2,5 +2,7 @@
 class Villager():
     
     def __init__(self):
-        pass
-    
+        self.name = "Villager"
+        self.faction = "Town"
+        self.action = False
+        self.priority = 0
